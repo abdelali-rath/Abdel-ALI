@@ -1,10 +1,10 @@
 # Abdel-ALI
 
-<img width="1600" height="1600" alt="Abdel ALI - circle" src="https://github.com/user-attachments/assets/ada2bb80-0613-454d-8e4b-fbb8b1b3041b" />
+<img width="2000" height="2000" alt="Abdel ALI (2)" src="https://github.com/user-attachments/assets/1af9877d-f596-4e46-a3cb-2c489874f223" />
 
-Abdel ALI is a miniaturized Generative Pre-trained Transformer (GPT) built entirely from scratch using PyTorch. This project demonstrates the fundamental mathematics and software engineering behind modern Large Language Models (LLMs). 
+### Abdel ALI is a miniaturized Generative Pre-trained Transformer (GPT) built entirely from scratch using PyTorch. This project demonstrates the fundamental mathematics and software engineering behind modern Large Language Models (LLMs). 
 
-It features a custom-built Transformer architecture, a backpropagation training loop, and both Command Line and Web-based chat interfaces.
+### It features a custom-built Transformer architecture, a backpropagation training loop, and both Command Line and Web-based chat interfaces.
 
 ---
 
