@@ -71,6 +71,7 @@ To train Abdel ALI on your dataset, run the training script:
 python train.py
 ```
 • Hardware Note: The script automatically detects if you have a CUDA-enabled GPU, an Apple Silicon MPS, or a CPU. If you are on an AMD GPU without DirectML configured, it will safely default to your CPU.
+
 • Checkpoints: Once training completes (or is manually stopped), the model's weights will be automatically saved to `checkpoints/abdel_ali.pt`.
 
 ---
