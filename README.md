@@ -60,6 +60,7 @@ pip install -r requirements.txt
 ### 3. Prepare the Data:
 
 Create a `data` folder in the root directory. Place your raw text dataset (e.g., Wikipedia articles, movie scripts, or book texts) inside and name it `input.txt`.
+
 (Note: The `data/` folder is ignored by Git due to GitHub's file size limits).
 
 ---
