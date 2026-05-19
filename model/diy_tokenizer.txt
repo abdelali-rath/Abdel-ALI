@@ -1,0 +1,41 @@
+# Selmade tokenizer
+
+class CharTokenizer:
+    def __init__(self, text):
+        # Takes in a string of text
+        # Find all unique characters in the text and sort them
+        chars = sorted(list(set(text)))
+        self.vocab_size = len(chars)
+        
+        # Create dictionaries for translation
+        # string-to-integer (encode)
+        self.stoi = {ch: i for i, ch in enumerate(chars)}
+        # integer-to-string (decode)
+        self.itos = {i: ch for i, ch in enumerate(chars)}
+
+    def encode(self, string_input):
+        # Example: "hi" -> [46, 47]
+        return [self.stoi[c] for c in string_input]
+
+    def decode(self, list_of_ints):
+        # Example: [46, 47] -> "hi"
+        return ''.join([self.itos[i] for i in list_of_ints])
+
+
+# --- Test ---
+if __name__ == "__main__":
+    # A tiny dataset just to test how the tokenizer works
+    sample_text = "hello world! this is an Abdel ALI."
+    
+    # Initialize the tokenizer
+    tokenizer = CharTokenizer(sample_text)
+    
+    print(f"Vocabulary size: {tokenizer.vocab_size} unique characters")
+    
+    # Test Encoding
+    encoded_message = tokenizer.encode("hello!")
+    print(f"Encoded 'hello!': {encoded_message}")
+    
+    # Test Decoding
+    decoded_message = tokenizer.decode(encoded_message)
+    print(f"Decoded back to text: {decoded_message}")
