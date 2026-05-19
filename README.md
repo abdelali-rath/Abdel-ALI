@@ -57,8 +57,6 @@ pip install -r requirements.txt
 ```
 (Requires `torch`, `tiktoken`, and `gradio`)
 
----
-
 ### 3. Prepare the Data:
 
 Create a `data` folder in the root directory. Place your raw text dataset (e.g., Wikipedia articles, movie scripts, or book texts) inside and name it `input.txt`.
