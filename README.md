@@ -2,7 +2,7 @@
 
 <img width="2000" height="2000" alt="Abdel ALI (2)" src="https://github.com/user-attachments/assets/1af9877d-f596-4e46-a3cb-2c489874f223" />
 
-### Abdel ALI is a miniaturized Generative Pre-trained Transformer (GPT) built entirely from scratch using PyTorch. This project demonstrates the fundamental mathematics and software engineering behind modern Large Language Models (LLMs). 
+### Abdel-ALI _(Adaptive Language Intelligence)_ is a miniaturized Generative Pre-trained Transformer (GPT) built entirely from scratch using PyTorch. This project demonstrates the fundamental mathematics and software engineering behind modern Large Language Models (LLMs). 
 
 ### It features a custom-built Transformer architecture, a backpropagation training loop, and both Command Line and Web-based chat interfaces.
 
@@ -49,6 +49,7 @@ git clone https://github.com/abdelali-rath/Abdel-ALI.git
 cd Abdel-ALI
 ```
 
+
 ### 2. Install the required dependencies:
 It is recommended to use a virtual environment.
 ```
@@ -56,6 +57,7 @@ pip install -r requirements.txt
 # still empty tho
 ```
 (Requires `torch`, `tiktoken`, and `gradio`)
+
 
 ### 3. Prepare the Data:
 
@@ -85,6 +87,7 @@ Run the chat script directly in your terminal:
 ```
 python chat.py
 ```
+
 
 ### Option 2: Web User Interface (GUI)
 Launch the Gradio web server for a clean, ChatGPT-style interface:
