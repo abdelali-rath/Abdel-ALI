@@ -1,1 +1,4 @@
+# Ignore the data folder contents completely
 data/
+data/*
+*.txt
